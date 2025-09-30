@@ -1,0 +1,1147 @@
+2025-09-26 03:30:51,507 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 03:30:51,822 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 03:30:51,856 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.15.145:5001
+2025-09-26 03:30:51,856 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 03:30:51,857 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 03:30:53,759 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 03:30:54,023 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 03:30:54,048 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 03:30:54,062 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 04:05:27,611 - werkzeug - INFO - 192.168.15.119 - - [26/Sep/2025 04:05:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-26 04:05:27,709 - werkzeug - INFO - 192.168.15.119 - - [26/Sep/2025 04:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-26 04:05:48,435 - werkzeug - INFO - 192.168.15.119 - - [26/Sep/2025 04:05:48] "[31m[1mGET /process HTTP/1.1[0m" 405 -
+2025-09-26 04:05:57,606 - werkzeug - INFO - 192.168.15.119 - - [26/Sep/2025 04:05:57] "[33mGET /send-code HTTP/1.1[0m" 404 -
+2025-09-26 04:06:35,402 - werkzeug - INFO - 192.168.15.119 - - [26/Sep/2025 04:06:35] "[33mPOST /send-code HTTP/1.1[0m" 404 -
+2025-09-26 04:08:45,045 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 04:08:45,051 - werkzeug - INFO - 192.168.15.119 - - [26/Sep/2025 04:08:45] "POST /process HTTP/1.1" 200 -
+2025-09-26 04:08:45,438 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 04:08:45,775 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 04:08:45,938 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 04:08:45,938 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 04:08:45,939 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 04:08:45,939 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 04:08:45,940 - UnifiedAnalysisSystem - WARNING - Config load failed: [Errno 2] No such file or directory: 'config/system_config.json'. Using defaults.
+2025-09-26 04:08:46,000 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 04:08:46,001 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 04:08:46,001 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 04:08:46,169 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 04:09:04,248 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 04:09:04,253 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 04:09:04,253 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 04:09:04,253 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 04:09:04,448 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 04:09:04,449 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 04:09:20,104 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 15.43s - 1 objects
+2025-09-26 04:09:20,284 - __main__ - INFO - 💡 New Description: A close-up view shows a person's hands typing on the keyboard of an open laptop. The screen is glowing, indicating the device is powered on and in use, though the content on the screen is not discernible. The focus remains tightly on the interaction between the user and the laptop.
+2025-09-26 04:09:20,398 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.29s - 0 objects
+2025-09-26 04:09:20,520 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 04:09:35,190 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 14.79s - 1 objects
+2025-09-26 04:09:35,281 - __main__ - INFO - 💡 New Description: The scene appears to be an indoor setting centered around a remote control. The object's presence suggests a living or entertainment area, where it is likely used to operate an electronic device. No other significant objects or activities are detailed in the provided analysis.
+2025-09-26 04:09:35,429 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 04:09:35,433 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 04:09:55,166 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 04:10:00,363 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 04:10:01,118 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 25.69s - 1 objects
+2025-09-26 04:10:01,214 - __main__ - INFO - 💡 New Description: A person is observed at a table, interacting with a laptop computer. The setting appears to be indoors, focused on the activity of using the electronic device. No other significant activities or subjects are noted in the immediate vicinity.
+2025-09-26 04:10:01,334 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 04:10:01,360 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 04:10:01,563 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 04:10:01,839 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 08:53:10,964 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 08:53:11,406 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 08:53:11,417 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://10.110.39.125:7860
+2025-09-26 08:53:11,417 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 08:58:34,582 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 08:58:35,015 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 08:58:47,228 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 08:58:47,602 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 08:59:07,516 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 08:59:07,901 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 08:59:07,962 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 08:59:07,962 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 08:59:07,964 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 08:59:11,207 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 08:59:11,540 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 08:59:11,568 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 08:59:11,586 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:01:50,352 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:01:50,356 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:01:50] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:01:50,601 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:01:50,933 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:01:51,092 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:01:51,092 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:01:51,093 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:01:51,093 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:01:51,094 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:01:51,139 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:01:51,139 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:01:51,139 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:01:51,265 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:02:09,804 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:02:09,805 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:02:09,805 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:02:09,805 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:02:10,131 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:02:10,132 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:02:13,898 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 3.34s - 0 objects
+2025-09-26 09:02:14,050 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:02:15,806 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:02:20,840 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:02:25,903 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.25s - 0 objects
+2025-09-26 09:02:30,993 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 09:02:36,045 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:02:41,210 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 09:02:46,308 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 09:02:51,470 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.36s - 0 objects
+2025-09-26 09:02:56,518 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.45s - 0 objects
+2025-09-26 09:03:01,468 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:03:06,742 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.35s - 0 objects
+2025-09-26 09:03:11,736 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 09:03:16,942 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 09:03:22,128 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.26s - 0 objects
+2025-09-26 09:03:27,268 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:03:32,473 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 09:03:37,651 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.25s - 0 objects
+2025-09-26 09:03:42,691 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:03:47,881 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 09:03:52,807 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:03:58,145 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.30s - 0 objects
+2025-09-26 09:04:03,179 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:04:08,217 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:04:13,260 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:04:18,603 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 09:04:23,927 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:04:29,501 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 09:04:34,747 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:04:40,209 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:04:45,476 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.35s - 0 objects
+2025-09-26 09:04:50,517 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:04:55,554 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:05:00,499 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:05:05,643 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:05:10,703 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 09:05:15,607 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.19s - 0 objects
+2025-09-26 09:05:21,023 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 09:05:26,315 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.26s - 0 objects
+2025-09-26 09:05:31,351 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:05:36,537 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.26s - 0 objects
+2025-09-26 09:05:41,652 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.30s - 0 objects
+2025-09-26 09:05:46,881 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.29s - 0 objects
+2025-09-26 09:05:51,993 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.18s - 0 objects
+2025-09-26 09:05:57,032 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:06:02,186 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:06:20,922 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:06:21,343 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:06:21,388 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:06:21,389 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:06:21,390 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:06:24,452 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:06:24,772 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:06:24,801 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:06:24,817 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:12:38,350 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:12:38,791 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:12:38,834 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:12:38,834 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:12:38,835 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:12:42,243 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:12:42,625 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:12:42,662 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:12:42,683 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:12:57,179 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:12:57,182 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:12:57] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:12:57,379 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:12:57,704 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:12:57,862 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:12:57,862 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:12:57,863 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:12:57,863 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:12:57,864 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:12:57,902 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:12:57,902 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:12:57,902 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:12:57,996 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:13:15,123 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:13:15,127 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:13:15,127 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:13:15,127 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:13:15,410 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:13:15,410 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:13:41,671 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 25.98s - 1 objects
+2025-09-26 09:13:41,676 - __main__ - INFO - 💡 New Description: Observation confirms the presence of a laptop as the central object within the scene. The device is clearly identified, but no associated activity or user interaction is detected in the immediate vicinity. The surrounding environment lacks other significant objects of interest.
+2025-09-26 09:13:41,918 - __main__ - ERROR - End of video stream or error.
+2025-09-26 09:13:41,918 - __main__ - INFO - 🔴 Video processing loop has stopped.
+2025-09-26 09:13:41,918 - UnifiedAnalysisSystem - INFO - Shutting down unified analysis system...
+2025-09-26 09:13:41,918 - UnifiedAnalysisSystem - INFO - Shutting down face recognition engine...
+2025-09-26 09:13:41,968 - UnifiedAnalysisSystem - INFO - Face recognition engine shutdown complete
+2025-09-26 09:13:41,968 - UnifiedAnalysisSystem - INFO - Shutting down drone analysis engine...
+2025-09-26 09:13:44,987 - UnifiedAnalysisSystem - INFO - Drone analysis engine shutdown complete
+2025-09-26 09:13:44,988 - UnifiedAnalysisSystem - INFO - Unified analysis system shutdown complete
+2025-09-26 09:13:58,517 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:13:58,931 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:13:58,971 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:13:58,971 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:13:58,972 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:14:01,942 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:14:02,258 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:14:02,288 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:14:02,306 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:14:23,276 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:14:23,278 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:14:23] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:14:23,460 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:14:23,791 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:14:23,950 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:14:23,950 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:14:23,950 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:14:23,951 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:14:23,952 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:14:23,983 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:14:23,983 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:14:23,983 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:14:24,058 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:14:42,122 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:14:42,124 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:14:42,124 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:14:42,124 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:14:44,843 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:14:44,843 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:14:47,961 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 1.60s - 0 objects
+2025-09-26 09:14:48,209 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:14:51,933 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 09:14:57,626 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 09:15:03,149 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:15:08,265 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:15:14,017 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:15:19,028 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 09:15:24,277 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:15:29,521 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:15:35,076 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 09:15:40,449 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 09:16:08,802 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 22.68s - 1 objects
+2025-09-26 09:16:08,809 - __main__ - INFO - 💡 New Description: Please provide the question and answer pairs. The description is generated based on the analysis of that information.
+
+**For example, if the Q&A pairs were:**
+
+*   **Q: What is the man doing?**
+    *   A: He is sitting at a desk and using a laptop.
+*   **Q: What is on the desk?**
+    *   A: A laptop, a cup of coffee, and some papers.
+*   **Q: What is the man wearing?**
+    *   A: A blue shirt.
+
+**The resulting description would be:**
+
+An individual in a blue shirt is seated at a desk, operating a laptop computer. On the desk, a cup of coffee and papers are also visible alongside the electronic device.
+2025-09-26 09:16:09,198 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.39s - 0 objects
+2025-09-26 09:16:09,288 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:16:09,446 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.25s - 0 objects
+2025-09-26 09:16:09,767 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.32s - 0 objects
+2025-09-26 09:16:09,986 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:16:12,517 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:16:35,835 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 16.94s - 1 objects
+2025-09-26 09:16:36,378 - __main__ - INFO - 💡 New Description: The scene depicts an individual engaged with a cell phone, which they appear to be holding. The mobile device is the central point of the subject's attention and interaction.
+2025-09-26 09:16:55,252 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:17:00,656 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:17:05,899 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:17:09,476 - UnifiedAnalysisSystem - ERROR - API call attempt 1 failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=30)
+2025-09-26 09:17:11,093 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:17:16,116 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:18:53,756 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:18:54,194 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:18:54,238 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:18:54,238 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:18:54,240 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:18:57,413 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:18:57,729 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:18:57,766 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:18:57,785 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:19:15,406 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:19:15,410 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:19:15] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:19:15,594 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:19:15,923 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:19:16,083 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:19:16,083 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:19:16,083 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:19:16,083 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:19:16,085 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:19:16,118 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:19:16,118 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:19:16,118 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:19:16,212 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:19:34,094 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:19:34,095 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:19:34,095 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:19:34,095 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:19:34,337 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:19:34,337 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:19:36,938 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 2.12s - 0 objects
+2025-09-26 09:19:37,217 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:19:52,333 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 12.26s - 1 objects
+2025-09-26 09:19:52,484 - __main__ - INFO - 💡 New Description: Please provide the question and answer pairs. They are required to generate the scene description.
+
+Once you provide the Q&A, I will generate the concise, objective paragraph as instructed.
+2025-09-26 09:19:52,560 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:19:52,752 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:19:52,915 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.35s - 0 objects
+2025-09-26 09:19:55,744 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:20:00,874 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 09:24:57,256 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:24:57,678 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:24:57,721 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:24:57,721 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:24:57,722 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:25:02,170 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:25:02,493 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:25:02,524 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:25:02,542 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:25:08,420 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:25:08,422 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:25:08] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:25:08,600 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:25:08,931 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:25:09,092 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:25:09,092 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:25:09,092 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:25:09,092 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:25:09,092 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:25:09,137 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:25:09,138 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:25:09,138 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:25:09,220 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:25:34,690 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:25:34,691 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:25:34,691 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:25:34,692 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:25:37,366 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:25:37,367 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:25:41,425 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 1.64s - 0 objects
+2025-09-26 09:25:42,990 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:25:44,942 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.19s - 0 objects
+2025-09-26 09:30:18,982 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:30:19,400 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:30:19,442 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:30:19,442 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:30:19,443 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:30:22,572 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:30:22,898 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:30:22,930 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:30:22,947 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:30:23,238 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:30:23,240 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:30:23] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:30:23,431 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:30:23,759 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:30:23,920 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:30:23,920 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:30:23,920 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:30:23,920 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:30:23,922 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:30:23,961 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:30:23,961 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:30:23,961 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:30:24,058 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:30:45,537 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:30:45,539 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:30:45,540 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:30:45,540 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:30:50,094 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:30:50,094 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:31:25,848 - UnifiedAnalysisSystem - ERROR - API call attempt 1 failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=30)
+2025-09-26 09:31:26,067 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:31:31,316 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:31:38,269 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:31:43,564 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:31:46,196 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 53.53s - 10 objects
+2025-09-26 09:31:46,926 - __main__ - INFO - 💡 New Description: The scene captures several individuals seated in an indoor setting, each focused on a laptop computer. The arrangement of multiple people and workstations suggests a collaborative work environment, such as an office, classroom, or conference.
+2025-09-26 09:31:58,172 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:32:05,356 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:32:10,592 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:32:13,634 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 27.44s - 10 objects
+2025-09-26 09:32:13,728 - __main__ - INFO - 💡 New Description: Several individuals are observed in an indoor environment, seated in chairs. The primary point of focus appears to be a laptop, with a bottle and a television also detected within the scene.
+2025-09-26 09:32:13,927 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:13] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:13,936 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:13] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:15,949 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:15] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:15,981 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:15] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:18,294 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:18] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:18,330 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:18] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:18,903 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:18] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:18,939 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:18] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:20,835 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:20] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:20,870 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:20] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:24,440 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:32:26,625 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:26] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:26,662 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:26] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:29,496 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:29] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 09:32:29,530 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 09:32:29] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:32:30,051 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:32:35,983 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:32:38,195 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 24.56s - 8 objects
+2025-09-26 09:32:38,332 - __main__ - INFO - 💡 New Description: The scene captures several individuals in an indoor setting, likely a classroom or collaborative workspace. The people appear to be seated and engaged with at least two open laptops. The presence of a chair and a backpack further supports the context of a work or study environment.
+2025-09-26 09:32:38,560 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.36s - 0 objects
+2025-09-26 09:32:38,671 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:32:38,837 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.28s - 0 objects
+2025-09-26 09:32:56,485 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 09:36:00,065 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:36:00,506 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:36:00,554 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:36:00,554 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:36:00,556 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:36:04,773 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:38:07,124 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:38:07,541 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:38:07,584 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:38:07,584 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:38:07,585 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:38:10,677 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:38:10,995 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:38:11,028 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:38:11,046 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:38:28,623 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080
+2025-09-26 09:38:28,627 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:38:28] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:38:28,817 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:38:29,146 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:38:29,307 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:38:29,308 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:38:29,308 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:38:29,308 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:38:29,309 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:38:29,356 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:38:29,356 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:38:29,356 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:38:29,453 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:38:46,298 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080
+2025-09-26 09:38:46,306 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:38:46] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:38:46,762 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:38:47,199 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:38:47,342 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:38:47,343 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:38:47,343 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:38:47,343 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080
+2025-09-26 09:38:47,372 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:38:47,373 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:38:47,373 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:38:47,373 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:38:47,374 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:38:47,374 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:38:47,374 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:38:47,374 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:38:47,463 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:38:47,744 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://192.0.0.4:8080
+2025-09-26 09:38:47,745 - __main__ - ERROR - Error: Failed to connect to stream at http://192.0.0.4:8080
+2025-09-26 09:39:07,140 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:39:07,560 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:39:07,601 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:39:07,601 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:39:07,602 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:39:10,666 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:39:10,990 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:39:11,026 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:39:11,044 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:39:11,055 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080
+2025-09-26 09:39:11,055 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:39:11] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:39:11,230 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:39:11,557 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:39:11,718 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:39:11,718 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:39:11,718 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:39:11,718 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:39:11,719 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:39:11,761 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:39:11,762 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:39:11,762 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:39:11,837 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:39:31,079 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:39:31,080 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:39:31,081 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:39:31,081 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080
+2025-09-26 09:39:31,321 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://192.0.0.4:8080
+2025-09-26 09:39:31,321 - __main__ - ERROR - Error: Failed to connect to stream at http://192.0.0.4:8080
+2025-09-26 09:42:33,628 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:42:34,040 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:42:34,080 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:42:34,081 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:42:34,082 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:42:37,178 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:42:37,503 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:42:37,535 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:42:37,554 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:42:40,119 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080
+2025-09-26 09:42:40,122 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:42:40] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:42:40,308 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:42:40,636 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:42:40,795 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:42:40,795 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:42:40,796 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:42:40,796 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:42:40,797 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:42:40,832 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:42:40,832 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:42:40,833 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:42:40,914 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:43:00,463 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:43:00,464 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:43:00,464 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:43:00,465 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080
+2025-09-26 09:43:00,709 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://192.0.0.4:8080
+2025-09-26 09:43:00,709 - __main__ - ERROR - Error: Failed to connect to stream at http://192.0.0.4:8080
+2025-09-26 09:50:25,052 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:50:25,465 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:50:25,507 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:50:25,507 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:50:25,509 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:50:28,577 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:50:28,903 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:50:28,936 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:50:28,954 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:50:30,418 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:50:30,421 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:50:30] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:50:30,624 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:50:30,952 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:50:31,114 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:50:31,114 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:50:31,115 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:50:31,115 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:50:31,115 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:50:31,156 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:50:31,157 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:50:31,157 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:50:31,264 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:50:48,461 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:50:48,463 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:50:48,463 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:50:48,463 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:50:48,763 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:50:48,763 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:50:50,979 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 1.99s - 0 objects
+2025-09-26 09:50:51,084 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:50:54,253 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.25s - 0 objects
+2025-09-26 09:50:59,495 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:51:04,663 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.26s - 0 objects
+2025-09-26 09:51:09,733 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.25s - 0 objects
+2025-09-26 09:51:14,795 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 09:51:19,930 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.32s - 0 objects
+2025-09-26 09:51:24,975 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 09:51:30,169 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 09:54:43,362 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:54:43,776 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:54:43,818 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:54:43,818 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:54:43,819 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:54:46,839 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:54:47,155 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:54:47,186 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:54:47,204 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:54:56,153 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:54:56,156 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:54:56] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:54:56,342 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:54:56,671 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:54:56,832 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:54:56,832 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:54:56,832 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:54:56,832 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:54:56,834 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:54:56,864 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:54:56,864 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:54:56,865 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:54:56,953 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:55:14,955 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:55:14,956 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:55:14,956 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:55:14,956 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:55:15,163 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:55:15,164 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:55:15,209 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:55:15] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 09:55:43,721 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 28.34s - 2 objects
+2025-09-26 09:55:44,282 - __main__ - INFO - 💡 New Description: Based on the analysis, a person is observed with high confidence within the scene. The individual appears to be interacting with a secondary object, identified with moderate confidence as a chair, suggesting the primary activity is sitting.
+2025-09-26 09:56:21,757 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:56:22,176 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:56:22,217 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.125:5001
+2025-09-26 09:56:22,217 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 09:56:22,218 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 09:56:25,313 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 09:56:25,631 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 09:56:25,663 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 09:56:25,680 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 09:56:25,692 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 09:56:25,693 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 09:56:25] "POST /process HTTP/1.1" 200 -
+2025-09-26 09:56:25,862 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 09:56:26,192 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 09:56:26,352 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 09:56:26,352 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 09:56:26,352 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 09:56:26,353 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 09:56:26,354 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 09:56:26,380 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 09:56:26,380 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 09:56:26,381 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 09:56:26,460 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 09:56:43,169 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 09:56:43,172 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 09:56:43,172 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 09:56:43,173 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 09:56:43,453 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 09:56:43,454 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 09:56:45,367 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 1.67s - 0 objects
+2025-09-26 09:56:45,794 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 09:56:49,219 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.19s - 0 objects
+2025-09-26 09:56:54,666 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 09:56:59,669 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 09:57:04,918 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.23s - 0 objects
+2025-09-26 09:57:10,045 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:57:15,105 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.24s - 0 objects
+2025-09-26 09:57:20,227 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:57:25,440 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:57:30,736 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 09:57:37,003 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.20s - 0 objects
+2025-09-26 09:58:03,263 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 21.45s - 7 objects
+2025-09-26 09:58:03,422 - __main__ - INFO - 💡 New Description: The scene captures several individuals, with at least three persons clearly identified, gathered in what appears to be a collaborative or instructional setting. Two laptops are detected in use by the subjects, who are likely seated, suggesting a focus on a shared digital task, meeting, or presentation in an indoor environment.
+2025-09-26 09:58:09,199 - UnifiedAnalysisSystem - ERROR - API error 503: {
+  "error": {
+    "code": 503,
+    "message": "The service is currently unavailable.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+2025-09-26 10:14:30,573 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:14:30,970 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:14:31,011 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.220.220.96:5001
+2025-09-26 10:14:31,011 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:14:31,012 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:14:34,141 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:14:34,468 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:14:34,503 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:14:34,550 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:16:57,928 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10:8080//video
+2025-09-26 10:16:57,930 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:16:57] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:16:57,990 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:16:57] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 10:16:58,174 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:16:58,500 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:16:58,660 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:16:58,660 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:16:58,660 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:16:58,660 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:16:58,662 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:16:58,706 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:16:58,707 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:16:58,707 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:16:58,810 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:17:16,475 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:17:16,476 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:17:16,476 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:17:16,477 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10:8080//video
+2025-09-26 10:17:16,795 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 10:17:16,795 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 10:17:16,847 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:17:16] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 10:17:38,572 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 21.54s - 10 objects
+2025-09-26 10:17:38,751 - __main__ - INFO - 💡 New Description: The scene captures five individuals in an indoor setting, likely a meeting or a classroom. Several people are seated in chairs and appear to be engaged in a collaborative task, focusing on at least two laptops present in the workspace. The group's attention on the devices suggests a work session or presentation is in progress.
+2025-09-26 10:17:51,959 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:17:51] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 10:17:51,999 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:17:51] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 10:17:53,642 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:17:56,879 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 18.31s - 10 objects
+2025-09-26 10:17:56,915 - __main__ - INFO - 💡 New Description: The scene depicts an indoor setting with multiple individuals seated in chairs. Most of the people are positioned in front of laptops, appearing to be engaged in work or study on their devices. The environment suggests a collaborative workspace, classroom, or presentation.
+2025-09-26 10:18:13,747 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:18:14,160 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:18:14,204 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:18:14,205 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:18:14,206 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:18:17,212 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:18:17,528 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:18:17,560 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:18:17,579 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:19:41,303 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:19:41,630 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:19:41,667 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.15.145:5001
+2025-09-26 10:19:41,668 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:19:41,668 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:19:44,768 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:19:45,088 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:19:45,123 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:19:45,144 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:24:41,262 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:24:41,668 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:24:41,708 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:24:41,708 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:24:41,709 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:24:44,809 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:24:45,131 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:24:45,163 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:24:45,182 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:25:32,636 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10//video
+2025-09-26 10:25:32,640 - werkzeug - INFO - 10.165.103.5 - - [26/Sep/2025 10:25:32] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:25:32,826 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:25:33,155 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:25:33,315 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:25:33,315 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:25:33,315 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:25:33,315 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:25:33,317 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:25:33,346 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:25:33,347 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:25:33,347 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:25:33,447 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:25:51,608 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:25:51,610 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:25:51,610 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:25:51,610 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10//video
+2025-09-26 10:25:51,837 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://10.185.158.10//video
+2025-09-26 10:25:51,837 - __main__ - ERROR - Error: Failed to connect to stream at http://10.185.158.10//video
+2025-09-26 10:26:47,584 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:26:47,993 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:26:48,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:26:48,039 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:26:48,040 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:26:51,497 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:26:51,844 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:26:51,878 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:26:51,894 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:27:28,701 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:27:29,096 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:27:29,135 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:27:29,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:27:29,136 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:27:32,196 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:27:32,514 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:27:32,546 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:27:32,565 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:30:09,526 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:30:09,922 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:30:09,961 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:30:09,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:30:09,962 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:30:12,991 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:30:13,322 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:30:13,353 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:30:13,373 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:30:16,472 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10//video
+2025-09-26 10:30:16,474 - werkzeug - INFO - 10.165.103.5 - - [26/Sep/2025 10:30:16] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:30:16,666 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:30:16,993 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:30:17,153 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:30:17,153 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:30:17,154 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:30:17,154 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:30:17,154 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:30:17,190 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:30:17,191 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:30:17,191 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:30:17,289 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:30:35,006 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:30:35,011 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:30:35,011 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:30:35,011 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10//video
+2025-09-26 10:30:35,186 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://10.185.158.10//video
+2025-09-26 10:30:35,186 - __main__ - ERROR - Error: Failed to connect to stream at http://10.185.158.10//video
+2025-09-26 10:30:45,626 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:30:46,022 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:30:46,064 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:30:46,064 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:30:46,065 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:30:49,024 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:30:49,341 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:30:49,371 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:30:49,389 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:30:51,497 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10//video
+2025-09-26 10:30:51,499 - werkzeug - INFO - 10.165.103.5 - - [26/Sep/2025 10:30:51] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:30:51,687 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:30:52,015 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:30:52,173 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:30:52,173 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:30:52,174 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:30:52,174 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:30:52,174 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:30:52,209 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:30:52,210 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:30:52,210 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:30:52,286 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:31:08,608 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:31:08,610 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:31:08,610 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:31:08,610 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10//video
+2025-09-26 10:31:08,673 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://10.185.158.10//video
+2025-09-26 10:31:08,673 - __main__ - ERROR - Error: Failed to connect to stream at http://10.185.158.10//video
+2025-09-26 10:33:42,157 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:33:42,595 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:33:42,640 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:33:42,640 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:33:42,641 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:33:45,644 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:33:45,960 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:33:45,992 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:33:46,011 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:33:51,811 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10//video
+2025-09-26 10:33:51,813 - werkzeug - INFO - 10.165.103.5 - - [26/Sep/2025 10:33:51] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:33:52,004 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:33:52,331 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:33:52,492 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:33:52,492 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:33:52,492 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:33:52,492 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:33:52,494 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:33:52,518 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:33:52,519 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:33:52,519 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:33:52,605 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:34:05,049 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10//video
+2025-09-26 10:34:05,051 - werkzeug - INFO - 10.165.103.5 - - [26/Sep/2025 10:34:05] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:34:05,249 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:34:05,580 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:34:05,743 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:34:05,744 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:34:05,744 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:34:05,744 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:34:05,745 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:34:05,745 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:34:05,745 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:34:05,745 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:34:05,831 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:34:10,029 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:34:10,033 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:34:10,033 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:34:10,034 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10//video
+2025-09-26 10:34:10,406 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://10.185.158.10//video
+2025-09-26 10:34:10,406 - __main__ - ERROR - Error: Failed to connect to stream at http://10.185.158.10//video
+2025-09-26 10:34:17,292 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:34:17,295 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:34:17,295 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:34:17,295 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10//video
+2025-09-26 10:34:17,386 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://10.185.158.10//video
+2025-09-26 10:34:17,386 - __main__ - ERROR - Error: Failed to connect to stream at http://10.185.158.10//video
+2025-09-26 10:48:52,175 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:48:52,608 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:48:52,651 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:48:52,652 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:48:52,653 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:48:55,930 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:48:56,252 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:48:56,283 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:48:56,300 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 10:50:54,079 - __main__ - INFO - 🚀 Starting new analysis for URL: http://10.185.158.10:8080//video
+2025-09-26 10:50:54,081 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:50:54] "POST /process HTTP/1.1" 200 -
+2025-09-26 10:50:54,131 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:50:54] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 10:50:54,295 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 10:50:54,621 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 10:50:54,781 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 10:50:54,781 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 10:50:54,782 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 10:50:54,782 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 10:50:54,783 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 10:50:54,823 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 10:50:54,823 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 10:50:54,823 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 10:50:54,908 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 10:51:14,057 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 10:51:14,066 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 10:51:14,066 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 10:51:14,066 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://10.185.158.10:8080//video
+2025-09-26 10:51:14,646 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 10:51:14,646 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 10:51:14,718 - werkzeug - INFO - 127.0.0.1 - - [26/Sep/2025 10:51:14] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 10:51:39,932 - UnifiedAnalysisSystem - ERROR - API call attempt 1 failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyAo8T5BFcmf-0i9LdanPpA4twt_dyGdSPE (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2025-09-26 10:51:51,501 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:51:56,632 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:01,979 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:07,169 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:07,695 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 51.62s - 10 objects
+2025-09-26 10:52:08,348 - __main__ - INFO - 💡 New Description: An indoor scene contains at least four individuals interacting with laptops. The presence of multiple chairs suggests a seated, collaborative environment, such as an office, classroom, or study group, where the primary activity is focused on computer-based work.
+2025-09-26 10:52:19,900 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:26,548 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:29,378 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 21.68s - 9 objects
+2025-09-26 10:52:30,719 - __main__ - INFO - 💡 New Description: Based on the detected objects, the scene is an indoor setting, likely an office or classroom, containing several individuals. Multiple people are observed seated in chairs, actively using laptops. A television is also present in the environment, suggesting a space for presentations or shared viewing.
+2025-09-26 10:52:38,510 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:44,219 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:50,484 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:56,223 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:52:57,539 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 28.16s - 10 objects
+2025-09-26 10:53:00,190 - __main__ - INFO - 💡 New Description: The scene depicts several individuals in an office or classroom setting, seated at a table. Each person is focused on working independently on their own laptop. There is no observed interaction between them as they concentrate on their individual tasks.
+2025-09-26 10:53:13,657 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:53:16,262 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 18.72s - 10 objects
+2025-09-26 10:53:16,303 - __main__ - INFO - 💡 New Description: Multiple individuals are observed in an indoor setting, seated in chairs. The subjects appear to be engaged in tasks using laptops, with at least three computers detected in the area of observation. The environment suggests a work or study session is in progress.
+2025-09-26 10:53:24,143 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:53:30,032 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:53:35,057 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 10:53:46,186 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:53:46,638 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:53:46,682 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.165.103.197:5001
+2025-09-26 10:53:46,682 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 10:53:46,683 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 10:53:50,128 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 10:53:50,474 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 10:53:50,506 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 10:53:50,525 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 12:48:35,868 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 12:48:36,339 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 12:48:36,383 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://127.0.0.1:5001
+2025-09-26 12:48:36,384 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 12:48:36,385 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 12:48:39,379 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 12:48:39,693 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 12:48:39,728 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 12:48:39,750 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 12:52:54,686 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 12:52:55,181 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 12:52:55,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.135:5001
+2025-09-26 12:52:55,229 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 12:52:55,230 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 12:52:58,595 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 12:52:59,020 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 12:52:59,072 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 12:52:59,101 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 13:06:18,579 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:06:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-26 13:06:23,108 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:06:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-26 13:06:40,749 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 13:06:41,152 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 13:06:41,192 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.135:5001
+2025-09-26 13:06:41,192 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 13:06:41,194 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 13:06:44,259 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 13:06:44,577 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 13:06:44,609 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 13:06:44,627 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 13:08:03,445 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 13:08:03,449 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:08:03] "POST /process HTTP/1.1" 200 -
+2025-09-26 13:08:03,637 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 13:08:03,996 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 13:08:04,158 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 13:08:04,158 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 13:08:04,158 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 13:08:04,158 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 13:08:04,160 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 13:08:04,196 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 13:08:04,197 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 13:08:04,197 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 13:08:04,311 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 13:08:21,898 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 13:08:21,950 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 13:08:21,950 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 13:08:21,950 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 13:08:22,506 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 13:08:22,506 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 13:08:25,082 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 2.19s - 0 objects
+2025-09-26 13:08:25,328 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 13:08:28,590 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.27s - 0 objects
+2025-09-26 13:08:31,387 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:08:31] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 13:08:33,612 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 13:08:38,840 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.21s - 0 objects
+2025-09-26 13:09:08,276 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 24.41s - 1 objects
+2025-09-26 13:09:08,332 - __main__ - INFO - 💡 New Description: Based on the provided data, a single person is identified in the observation area, likely standing alone. The individual is observed wearing a dark jacket and appears to be in an outdoor, urban setting with a paved surface beneath them. No other significant activity or interacting objects are detected in the immediate vicinity.
+2025-09-26 13:20:56,112 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 13:20:56,531 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 13:20:56,575 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.135:5001
+2025-09-26 13:20:56,575 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 13:20:56,576 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 13:20:59,600 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 13:20:59,918 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 13:20:59,951 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 13:20:59,969 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 13:22:08,648 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:22:08] "OPTIONS /process HTTP/1.1" 200 -
+2025-09-26 13:22:08,666 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//video
+2025-09-26 13:22:08,667 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:22:08] "POST /process HTTP/1.1" 200 -
+2025-09-26 13:22:08,844 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 13:22:09,175 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 13:22:09,336 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 13:22:09,336 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 13:22:09,336 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 13:22:09,336 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 13:22:09,337 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 13:22:09,370 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 13:22:09,371 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 13:22:09,371 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 13:22:09,450 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 13:22:26,454 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 13:22:26,458 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 13:22:26,458 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 13:22:26,458 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//video
+2025-09-26 13:22:26,780 - UnifiedAnalysisSystem - INFO - Video source initialized successfully
+2025-09-26 13:22:26,780 - __main__ - INFO - ✅ Video processing loop started...
+2025-09-26 13:22:26,841 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:22:26] "GET /video_feed HTTP/1.1" 200 -
+2025-09-26 13:22:26,846 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 13:22:26] "GET /video_feed?t=1758873128461 HTTP/1.1" 200 -
+2025-09-26 13:22:29,060 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 2.08s - 0 objects
+2025-09-26 13:22:29,156 - __main__ - INFO - 💡 New Description: No objects detected.
+2025-09-26 13:22:32,211 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 0.22s - 0 objects
+2025-09-26 13:23:07,829 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:07,894 - UnifiedAnalysisSystem - ERROR - API call attempt 1 failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=30)
+2025-09-26 13:23:12,930 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:18,023 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:23,141 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:28,200 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:29,501 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 52.46s - 1 objects
+2025-09-26 13:23:29,530 - __main__ - INFO - 💡 New Description: The central focus of the scene is a laptop, which has been identified with high confidence. The device is positioned open on a surface, indicating it is powered on and in a state of active use. No other significant objects or activities are noted in the immediate vicinity.
+2025-09-26 13:23:38,344 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:43,564 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:48,725 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:53,785 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:23:58,880 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:24:00,938 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 31.44s - 1 objects
+2025-09-26 13:24:00,997 - __main__ - INFO - 💡 New Description: Please provide the question-and-answer pairs. The description is generated by analyzing the content of those pairs.
+
+**EXAMPLE:**
+
+**[Hypothetical Q&A Pairs Provided by User]**
+*   **Q:** What is the person in the image doing? **A:** The person is holding up a cell phone.
+*   **Q:** What is the person looking at? **A:** They are looking at the screen of their phone.
+*   **Q:** Where is the person? **A:** On a city sidewalk at night.
+*   **Q:** What is in the background? **A:** A blurred street with car lights.
+
+**DESCRIPTION:**
+
+A person is observed standing on a city sidewalk at night, illuminated by surrounding lights. They are actively engaged with a cell phone, holding it up and looking at its screen, with the blurred lights of street traffic visible in the background.
+2025-09-26 13:24:08,958 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:24:14,097 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:24:19,200 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:24:21,868 - UnifiedAnalysisSystem - INFO - Drone analysis completed in 20.93s - 1 objects
+2025-09-26 13:24:21,974 - __main__ - INFO - 💡 New Description: An open laptop is observed on a surface, its screen illuminated. The device appears to be active, though no user is currently interacting with it. The surrounding environment is out of focus, centering attention on the electronic object.
+2025-09-26 13:24:29,464 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:24:34,528 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 13:24:39,549 - UnifiedAnalysisSystem - WARNING - Drone analysis queue full - skipping frame
+2025-09-26 14:19:56,980 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 14:19:57,396 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 14:19:57,440 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.135:5001
+2025-09-26 14:19:57,440 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 14:19:57,441 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 14:20:00,480 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 14:20:00,804 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 14:20:00,837 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 14:20:00,857 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 14:20:00,869 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 14:20:00] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 14:20:00,869 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 14:20:00] "GET /description_stream HTTP/1.1" 200 -
+2025-09-26 14:20:00,871 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 14:20:00] "GET /status HTTP/1.1" 200 -
+2025-09-26 14:20:00,910 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 14:20:00] "GET /status HTTP/1.1" 200 -
+2025-09-26 14:21:01,321 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 14:21:01] "OPTIONS /process HTTP/1.1" 200 -
+2025-09-26 14:21:01,420 - __main__ - INFO - 🚀 Starting new analysis for URL: http://192.0.0.4:8080//videos
+2025-09-26 14:21:01,422 - werkzeug - INFO - 10.110.39.45 - - [26/Sep/2025 14:21:01] "POST /process HTTP/1.1" 200 -
+2025-09-26 14:21:01,604 - UnifiedAnalysisSystem - INFO - Loaded known face: anshu
+2025-09-26 14:21:01,932 - UnifiedAnalysisSystem - INFO - Loaded known face: vishesh
+2025-09-26 14:21:02,095 - UnifiedAnalysisSystem - INFO - Loaded known face: satyam
+2025-09-26 14:21:02,095 - UnifiedAnalysisSystem - INFO - Successfully loaded 3 known faces
+2025-09-26 14:21:02,096 - UnifiedAnalysisSystem - INFO - Face processing thread started
+2025-09-26 14:21:02,096 - UnifiedAnalysisSystem - INFO - Face recognition engine initialized
+2025-09-26 14:21:02,096 - UnifiedAnalysisSystem - INFO - Configuration loaded from config/system_config.json
+2025-09-26 14:21:02,121 - UnifiedAnalysisSystem - INFO - Drone analysis engine initialized on MPS
+2025-09-26 14:21:02,122 - UnifiedAnalysisSystem - INFO - Question tree loaded successfully
+2025-09-26 14:21:02,122 - UnifiedAnalysisSystem - INFO - Initializing AI models...
+2025-09-26 14:21:02,204 - UnifiedAnalysisSystem - INFO - YOLOv8 model loaded successfully
+2025-09-26 14:21:19,105 - UnifiedAnalysisSystem - INFO - BLIP VQA model loaded successfully
+2025-09-26 14:21:19,108 - UnifiedAnalysisSystem - INFO - Drone analysis engine fully initialized
+2025-09-26 14:21:19,108 - UnifiedAnalysisSystem - INFO - Unified video analysis system initialized
+2025-09-26 14:21:19,108 - UnifiedAnalysisSystem - INFO - Connecting to video stream: http://192.0.0.4:8080//videos
+2025-09-26 14:21:19,277 - UnifiedAnalysisSystem - ERROR - Failed to open video source: http://192.0.0.4:8080//videos
+2025-09-26 14:21:19,277 - __main__ - ERROR - Error: Failed to connect to stream at http://192.0.0.4:8080//videos
+2025-09-26 14:49:17,583 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 14:49:18,015 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 14:49:18,062 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.135:5001
+2025-09-26 14:49:18,062 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 14:49:18,063 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 14:49:21,214 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 14:49:21,529 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 14:49:21,562 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 14:49:21,580 - werkzeug - INFO -  * Debugger PIN: 491-316-608
+2025-09-26 15:06:34,962 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 15:06:35,372 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 15:06:35,411 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.110.39.135:5001
+2025-09-26 15:06:35,411 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 15:06:35,413 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 15:06:38,680 - UnifiedAnalysisSystem - INFO - Ultralytics YOLO successfully imported
+2025-09-26 15:06:38,998 - UnifiedAnalysisSystem - INFO - Transformers successfully imported
+2025-09-26 15:06:39,030 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 15:06:39,049 - werkzeug - INFO -  * Debugger PIN: 491-316-608

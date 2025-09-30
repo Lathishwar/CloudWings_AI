@@ -1,0 +1,17 @@
+{
+  "known_faces_dir": "known_faces",
+  "face_tolerance": 0.6,
+  "face_scale": 0.25,
+  "face_process_every": 2,
+  "drone_capture_interval": 5,
+  "gemini_api_key": "AIzaSyAo8T5BFcmf-0i9LdanPpA4twt_dyGdSPE",
+  "gemini_api_url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent",
+  "confidence_threshold": 0.5,
+  "max_api_retries": 3,
+  "api_timeout": 30,
+  "max_objects_per_frame": 10,
+  "cache_enabled": true,
+  "max_questions_per_object": 3,
+  "vqa_enabled": true,
+  "gemini_enabled": true
+}

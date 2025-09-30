@@ -1,0 +1,373 @@
+{
+    "root": {
+        "question": "What is the main environment captured in this scene?",
+        "answer_type": [
+            "indoor",
+            "outdoor"
+        ],
+        "children": [
+            {
+                "condition": "indoor",
+                "question": "What type of indoor space is this?",
+                "answer_type": [
+                    "office",
+                    "home",
+                    "classroom",
+                    "warehouse"
+                ],
+                "children": [
+                    {
+                        "condition": "office",
+                        "question": "Are people present?",
+                        "answer_type": [
+                            "yes",
+                            "no"
+                        ],
+                        "children": [
+                            {
+                                "condition": "yes",
+                                "question": "How many people are visible?",
+                                "answer_type": "integer",
+                                "children": [
+                                    {
+                                        "condition": null,
+                                        "question": "What are the people doing?",
+                                        "answer_type": [
+                                            "standing",
+                                            "sitting",
+                                            "walking",
+                                            "working",
+                                            "talking"
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "condition": null,
+                                        "question": "What are they wearing?",
+                                        "answer_type": [
+                                            "shirt color",
+                                            "uniform",
+                                            "jacket",
+                                            "hat",
+                                            "bag"
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "condition": null,
+                                        "question": "Are they working individually or in groups?",
+                                        "answer_type": [
+                                            "individual",
+                                            "group"
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "no",
+                                "question": "Are objects or equipment visible?",
+                                "answer_type": [
+                                    "yes",
+                                    "no"
+                                ],
+                                "children": [
+                                    {
+                                        "condition": "yes",
+                                        "question": "What objects are visible?",
+                                        "answer_type": [
+                                            "chair",
+                                            "table",
+                                            "computer",
+                                            "monitor",
+                                            "printer",
+                                            "bottle"
+                                        ],
+                                        "children": [
+                                            {
+                                                "condition": null,
+                                                "question": "How many of each object are visible?",
+                                                "answer_type": "integer",
+                                                "children": []
+                                            },
+                                            {
+                                                "condition": null,
+                                                "question": "What are the positions of the objects?",
+                                                "answer_type": [
+                                                    "center",
+                                                    "corner",
+                                                    "left",
+                                                    "right",
+                                                    "random"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "condition": null,
+                                                "question": "What are their colors or materials?",
+                                                "answer_type": [
+                                                    "wood",
+                                                    "metal",
+                                                    "plastic",
+                                                    "glass",
+                                                    "red",
+                                                    "blue",
+                                                    "green",
+                                                    "white",
+                                                    "black"
+                                                ],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "home",
+                        "question": "What type of room is visible?",
+                        "answer_type": [
+                            "bedroom",
+                            "living room",
+                            "kitchen"
+                        ],
+                        "children": [
+                            {
+                                "condition": "bedroom",
+                                "question": "Are people present?",
+                                "answer_type": [
+                                    "yes",
+                                    "no"
+                                ],
+                                "children": [
+                                    {
+                                        "condition": "yes",
+                                        "question": "How many people are visible?",
+                                        "answer_type": "integer",
+                                        "children": []
+                                    },
+                                    {
+                                        "condition": "no",
+                                        "question": "What objects are present?",
+                                        "answer_type": [
+                                            "bed",
+                                            "table",
+                                            "chair",
+                                            "lamp",
+                                            "bottle"
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "living room",
+                                "question": "What furniture is visible?",
+                                "answer_type": [
+                                    "sofa",
+                                    "chair",
+                                    "table",
+                                    "TV",
+                                    "lamp"
+                                ],
+                                "children": [
+                                    {
+                                        "condition": null,
+                                        "question": "Are people interacting with furniture?",
+                                        "answer_type": [
+                                            "yes",
+                                            "no"
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "condition": "outdoor",
+                "question": "What type of outdoor environment is visible?",
+                "answer_type": [
+                    "urban",
+                    "natural",
+                    "construction"
+                ],
+                "children": [
+                    {
+                        "condition": "urban",
+                        "question": "Are people present?",
+                        "answer_type": [
+                            "yes",
+                            "no"
+                        ],
+                        "children": [
+                            {
+                                "condition": "yes",
+                                "question": "How many people are visible?",
+                                "answer_type": "integer",
+                                "children": [
+                                    {
+                                        "condition": null,
+                                        "question": "What are they doing?",
+                                        "answer_type": [
+                                            "walking",
+                                            "standing",
+                                            "sitting",
+                                            "working",
+                                            "talking"
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "condition": null,
+                                        "question": "What are they wearing?",
+                                        "answer_type": [
+                                            "shirt color",
+                                            "uniform",
+                                            "jacket",
+                                            "hat",
+                                            "bag"
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "condition": null,
+                                        "question": "Are they alone or in groups?",
+                                        "answer_type": [
+                                            "individual",
+                                            "group"
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "no",
+                                "question": "Are vehicles or objects present?",
+                                "answer_type": [
+                                    "yes",
+                                    "no"
+                                ],
+                                "children": [
+                                    {
+                                        "condition": "yes",
+                                        "question": "What types of vehicles or objects are present?",
+                                        "answer_type": [
+                                            "car",
+                                            "truck",
+                                            "bike",
+                                            "bicycle",
+                                            "scooter",
+                                            "drone"
+                                        ],
+                                        "children": [
+                                            {
+                                                "condition": null,
+                                                "question": "How many of each are visible?",
+                                                "answer_type": "integer",
+                                                "children": []
+                                            },
+                                            {
+                                                "condition": null,
+                                                "question": "Are they moving or stationary?",
+                                                "answer_type": [
+                                                    "moving",
+                                                    "stationary"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "condition": null,
+                                                "question": "What are their colors?",
+                                                "answer_type": [
+                                                    "red",
+                                                    "blue",
+                                                    "white",
+                                                    "black",
+                                                    "green",
+                                                    "yellow"
+                                                ],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "natural",
+                        "question": "What natural elements are visible?",
+                        "answer_type": [
+                            "tree",
+                            "grass",
+                            "bush",
+                            "flower",
+                            "river",
+                            "lake",
+                            "mountain",
+                            "sand"
+                        ],
+                        "children": [
+                            {
+                                "condition": null,
+                                "question": "Are people or animals visible?",
+                                "answer_type": [
+                                    "yes",
+                                    "no"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "construction",
+                        "question": "Is a building or construction site visible?",
+                        "answer_type": [
+                            "yes",
+                            "no"
+                        ],
+                        "children": [
+                            {
+                                "condition": "yes",
+                                "question": "What is the stage of construction?",
+                                "answer_type": [
+                                    "foundation",
+                                    "under construction",
+                                    "completed",
+                                    "abandoned"
+                                ],
+                                "children": [
+                                    {
+                                        "condition": null,
+                                        "question": "What machinery or equipment is present?",
+                                        "answer_type": [
+                                            "crane",
+                                            "bulldozer",
+                                            "truck",
+                                            "scaffold",
+                                            "tools"
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "condition": null,
+                                        "question": "Are workers present, and what are they doing?",
+                                        "answer_type": [
+                                            "yes",
+                                            "no"
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

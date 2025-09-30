@@ -1,0 +1,23 @@
+# Web Framework
+Flask
+Flask-Cors
+
+# Core CV & ML Libraries
+ultralytics
+opencv-python-headless
+torch
+torchvision
+transformers
+Pillow
+numpy
+
+# Face Recognition
+face-recognition
+dlib
+
+# Google Gemini API
+google-generativeai
+
+# Utilities
+requests
+python-dotenv
