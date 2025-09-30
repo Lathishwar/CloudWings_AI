@@ -1,1 +1,10 @@
 .env
+
+__pycache__/
+CloudWings_AI/
+
+Dockerfile
+unified_analysis.log
+
+yolov8m.pt
+yolov9c.pt
