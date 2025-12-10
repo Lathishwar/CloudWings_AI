@@ -1,3 +1,4 @@
+#All the libraries reqirementws versions are here
 # Web Framework
 Flask
 Flask-Cors
